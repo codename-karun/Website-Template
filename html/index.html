@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../javascript/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">WCI TECH</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <!------------section------------->
+    <section class="sec-1">
+        <div class="container">
+            <h2 class="main-title">Reveal Elements on Scroll</h2>
+            <div class="content">
+                <div class="image">
+                    <img src="../Images/pexels-anniroenkae-2156881.jpg" alt="">
+                </div>
+                <div class="textbox">
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas in obcaecati doloribus nisi
+                        deleniti dolores accusantium ex aliquam commodi saepe, nostrum, nam totam ipsam necessitatibus.
+                        Eum optio, porro facilis neque aliquid quis, praesentium deserunt eos impedit laudantium rem
+                        eligendi corrupti.</p>
+                </div>
+            </div>
+            <div class="media-icons">
+                <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="sec2">
+        <div class="container">
+            <h3 class="section-title">Lorem Ipsum</h3>
+            <div class="content">
+                <div class="image">
+                    <img src="../Images/pexels-designecologist-1779487.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h4 class="info-title">Description</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae sunt ipsam nobis officiis
+                        tenetur, a tempora distinctio eligendi magni harum odio atque labore tempore debitis ipsum
+                        nesciunt. Laborum vero dolorum minima veritatis atque dolorem dolore natus? Porro possimus cum
+                        magnam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec3">
+        <div class="container">
+            <h3 class="section-title">Lorem Ipsum</h3>
+            <div class="content">
+                <div class="media-info">
+                    <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i>Youtube</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+                </div>
+                <div class="image">
+                    <img src="../Images/pexels-kevin-ku-92347-577585.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="arrow"><a href="#"><img src="../Images/Arrow.png" alt=""></i></a></div>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 100
+        });
+
+
+        ScrollReveal().reveal('.main-title', { delay: 100 });
+        ScrollReveal().reveal('section', { delay: 100 })
+
+
+    </script>
+</body>
+</html>
